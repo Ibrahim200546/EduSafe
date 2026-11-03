@@ -2,6 +2,9 @@
 
 **Посещаемость без остановки у входа, связь с представителями и координация помощи.**
 
+**Опубликованный сайт:** https://edu-safe-alpha.vercel.app/  
+**Демо без регистрации:** https://edu-safe-alpha.vercel.app/demo
+
 Веб-приложение для школ и колледжей: Next.js + TypeScript на Vercel, Supabase Auth и PostgreSQL с RLS. Исходное ТЗ адаптировано к serverless: расписание и устойчивые задачи выполняются в PostgreSQL/Supabase, Telegram принимает webhook, постоянно работающий Python-процесс на Vercel не требуется.
 
 ## Возможности
@@ -91,6 +94,7 @@ Service role для веб-приложения не нужен. Маршрут�
 - [Архитектура](ARCHITECTURE.md)
 - [Сценарий демонстрации](DEMO_SCENARIO.md)
 - [Фактические проверки](TEST_REPORT.md)
+- [Текущая публикация и оставшиеся настройки](docs/DEPLOYMENT.md)
 - [База данных и права](docs/DATABASE.md)
 - [Эксплуатация](docs/OPERATIONS.md)
 - [Telegram](docs/TELEGRAM.md)
