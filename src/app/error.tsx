@@ -1,0 +1,2 @@
+'use client';
+export default function ErrorPage({reset}:{error:Error&{digest?:string};reset:()=>void}){return <main className="setup-page"><section className="setup-card"><h1>Не удалось загрузить страницу</h1><p>Проверьте подключение и попробуйте ещё раз. Ваши сохранённые записи остаются в базе.</p><button className="auth-primary" onClick={reset}>Попробовать снова</button><a className="auth-demo" href="/">На главную</a></section></main>;}
